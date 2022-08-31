@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MyDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Apartments"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:layout_margin="15dp"/>
+        <Button
+            android:background="@drawable/log_out"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:id="@+id/MbtnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT" />
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="2"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:layout_gravity="center_horizontal"
+            android:columnOrderPreserved="false">
+
+        <androidx.cardview.widget.CardView
+android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:id="@+id/image1"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/download_1" />
+
+                <TextView
+                    android:layout_marginLeft="3dp"
+                    android:textStyle="italic|bold"
+                    android:id="@+id/mtvSingle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="SINGLE ROOM"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="10dp"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="40dp"
+                android:layout_marginTop="40dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_margin="10dp">
+                <LinearLayout
+
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:id="@+id/image2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/smart" />
+
+                    <TextView
+                        android:textStyle="italic|bold"
+                        android:id="@+id/mtvOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="ONE ROOM"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:id="@+id/image3"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/three" />
+
+                    <TextView
+                        android:textStyle="italic|bold"
+                        android:id="@+id/mtvTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="TWO ROOMS"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:id="@+id/image4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/smartts" />
+
+                    <TextView
+                        android:textStyle="italic|bold"
+                        android:id="@+id/mtvThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="THREE ROOMS"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

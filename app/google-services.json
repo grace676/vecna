@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511815050929",
+    "firebase_url": "https://consolata-s-appartments-default-rtdb.firebaseio.com",
+    "project_id": "consolata-s-appartments",
+    "storage_bucket": "consolata-s-appartments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511815050929:android:123503ebdd9a8c8f342490",
+        "android_client_info": {
+          "package_name": "com.example.consolatasappartments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511815050929-3tutrgfir98e44c9us4k2touub3krpqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.consolatasappartments",
+            "certificate_hash": "c1ed2e5d13f6cf6ddff6e8156823391ceb733488"
+          }
+        },
+        {
+          "client_id": "511815050929-vok1cdibm58soobilhecsvtq2tadjo3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa9v9YwNK5xIMvTmVbRsAypG_JKycmV5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511815050929-vok1cdibm58soobilhecsvtq2tadjo3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

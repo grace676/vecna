@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mypayment">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/link" />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Payment Send Money ..." />
+
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/kk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For any inquiries please contact this number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+android:layout_marginTop="50dp"
+            android:id="@+id/mBtnPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="40"
+            android:background="#1E88E5"
+            app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/mBtncall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:text="0757792010"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/mBtnHousing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/borders"
+        android:text="BUY HOUSE NOW !!!"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

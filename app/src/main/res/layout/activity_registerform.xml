@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/whiteimage"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registerform">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mydownloadimage2" />
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#039BE5"
+            android:textAlignment="center"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textSize="40dp"
+            android:visibility="visible" />
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_button"
+            android:textColorHint="#1E88E5"
+            android:id="@+id/mBtnUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter User Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_button"
+            android:textColorHint="#1E88E5"
+            android:id="@+id/mBtnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter User Email"
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_button"
+            android:password="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColorHint="#1E88E5"
+            android:id="@+id/mBtnCreatepass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Create Password"
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_button"
+            android:password="true"
+            android:id="@+id/mBtnConfirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#1E88E5" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/mBtnLogout"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/borders"
+                android:padding="20dp"
+                android:text="REGISTER" />
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingLeft="60dp"
+            android:textStyle="italic|bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:id="@+id/mBtnAlready"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account ?Sign In" />
+    </LinearLayout>
+
+
+    </LinearLayout>
